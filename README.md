@@ -1,6 +1,5 @@
 # Propedeutico de Programación para el Análisis de Datos
 
-
 ### EGobiernoyTP, Verano 2026
 
 ¡Bienvenid@s!
@@ -76,96 +75,220 @@
     - Métodos: `x.mean()`
     - Atributos: `x.shape`
 
-### 3. Paquetes, archivos, más intro python
 
-1. Paquetes
-   - pip
-   - Importar paquetes
-   - Ambientes Virtuales
-2. Cargar archivos
-    - Importas archivos de Google Drive
-    - open
-    - csv con pandas
-3. Arreglos (numpy)
+### 4. Archivos, carpetas y paquetes
 
-### 4. Exploración de bases de datos (pandas 1)
-
-1. Generalidades de bases de datos
-    - ¿Cuántas variables y observaciones tenemos?
-    - Diccionario de variables
-    - Explorando más
-2. Tipos de datos en db
-    - Cambiar tipos de datos
-        - str
-        - float
-        - int
-        - datetime
-3. Variables categóricas
-4. Variables numéricas
-5. Variables temporales
-6. NA's
-    - Drop
-    - Replace
-7. Subconjuntos de bases
-    - Quitar columnas
-    - Seleccionar subconjuntos de la base
-    - Seleccionar subconjuntos basados en condiciones
-8. Reset index
-
-### 5. Exploración de bases de datos (pandas 2)
-
-1. Arrays y Dataframes
-2. Operaciones básicas en Dataframes
-    * Creación de columnas nuevas
-        * Suma, resta, multiplicación o divisón
-        * Comandos básicos de texto
-    * Agrupación
-3. Operaciones avanzadas en Dataframes
-    * Funciones Lambda
-4. Combinación de Dataframes
-    * Tipos de joins
-    * Merge
-
-### 6. Exploración descriptiva y gráfica de datos 
-
-1. Introducción a análisis de datos
-    - Objetivos 
-    - Tipos de estructura de datos
-    - Tipos de exploración de datos
-2. EDA (Exploratory Data Analysis) / GEDA (Graphical Exploratory Data Analysis)
-    - Definir el tipo de dato
-        - Categóricas
-        - Numéricas
-        - Fechas
-        - Texto
-        - Geolocalización
-    - Algunos principios de visualización 
-    - Análisis práctica
+1. Archivos y carpetas
+   - ¿Qué es una ruta?
+   - Directorio de trabajo
+   - Rutas absolutas y relativas, y extensiones de archivos
+   - ¿Dónde está buscando Python mi archivo?
+2. Trabajar con archivos en Colab
+   - Subir archivos
+   - Google Drive
+   - Leer un CSV
+3. Paquetes
+   - ¿Qué es un paquete?
+   - `import`
+   - Alias: `import pandas as pd`
+   - Instalar vs. importar
+   - ¿Por qué algunas funciones requieren paquetes?
+4. Introducción a NumPy
+   - ¿Qué es un array?
+   - Diferencia conceptual entre lista y array
+   - Operaciones vectorizadas
 
 
-### 7. SQL básico con python
+### 5. Introducción a pandas: conocer nuestros datos
 
-1. Introducción
-    * Bases de datos
-    * Lenguaje SQL
-2. Establecer conexiones con las bases de datos
-    * sqlite 
-    * psycopg2 
-3. Acciones básicas con SQL
-    * Instrucciones desde Python
-    * Obtener información con SQL
-    * Modificar información con SQL
+1. ¿Qué es una base de datos?
+   - Observaciones y variables
+   - Tablas
+   - Diccionario de variables
+   - Datos tidy
+2. Series y DataFrames
+   - ¿Qué es una Series?
+   - ¿Qué es un DataFrame?
+   - Filas, columnas e índice
+3. Cargar datos
+   - `pd.read_csv()`
+   - Mención de Excel y otros formatos
+4. Primera exploración
+   - `head()`
+   - `tail()`
+   - `sample()`
+   - `shape`
+   - `columns`
+   - `info()`
+   - `describe()`
+5. Conocer los valores de una variable
+   - `unique()`
+   - `nunique()`
+   - `value_counts()`
 
-### 8. Instalación y manejo de Python en sus computadoras locales
+
+### 6. pandas: seleccionar, limpiar y transformar datos
+
+1. Seleccionar columnas
+   - Una columna
+   - Varias columnas
+   - Series vs. DataFrame
+2. Seleccionar observaciones
+   - Filtrar mediante condiciones
+   - Combinar condiciones
+   - `loc`
+   - Mención de `iloc`
+3. Tipos de datos
+   - Strings
+   - `int`
+   - `float`
+   - Booleanos
+   - `datetime`
+   - Cambiar tipos
+4. Valores faltantes
+   - ¿Qué es `NaN`?
+   - `isna()`
+   - `dropna()`
+   - `fillna()`
+5. Ordenar datos
+   - `sort_values()`
+6. Crear y modificar variables
+   - Operaciones aritméticas
+   - Comparaciones
+   - Operaciones básicas con texto
+   - Variables derivadas
+7. Eliminar y renombrar columnas
+8. Índice y `reset_index()`
 
 
-### 9. Manejor de errores e IA al programar
+### 7. pandas: resumir y combinar información
+
+1. Estadística descriptiva básica
+   - Media
+   - Mediana
+   - Mínimo y máximo
+   - Conteos
+   - Proporciones
+2. Agrupar información
+   - `groupby()`
+   - `agg()`
+   - Agrupar por una o más variables
+3. Combinar bases de datos
+   - ¿Por qué tenemos información en diferentes tablas?
+   - Llaves o identificadores
+   - Tipos de joins
+   - `merge()`
+   - Identificar observaciones que no hicieron match
+
+
+### 8. Exploración descriptiva y visualización de datos
+
+1. Introducción al análisis exploratorio de datos
+   - ¿Qué queremos conocer de nuestros datos?
+   - EDA y GEDA
+   - Análisis univariado y bivariado
+2. Tipos de variables
+   - Categóricas
+   - Numéricas
+   - Temporales
+   - Texto
+   - Mención de datos geográficos
+3. Elegir una visualización
+   - Barras
+   - Histogramas
+   - Boxplots
+   - Scatterplots
+   - Series de tiempo
+4. Principios básicos de visualización
+   - Elegir la gráfica según la pregunta
+   - Ejes y escalas
+   - Etiquetas
+   - Evitar gráficas innecesariamente complejas
+5. Ejercicio de análisis
+   - Formular una pregunta
+   - Explorar los datos
+   - Obtener un resultado
+   - Visualizarlo
+   - Interpretarlo
+
+### 9. De Colab a mi computadora: Python local
+
+1. ¿Qué cambia al dejar Colab?
+   - Python ahora corre en mi computadora
+   - Los archivos están en mi computadora
+   - Los paquetes están instalados en mi ambiente
+2. La terminal
+   - ¿Qué es?
+   - `pwd`
+   - `ls`
+   - `cd`
+   - `mkdir`
+   - Diferencia entre comandos de terminal y código Python
+3. Instalación de Python y herramientas
+   - Python
+   - Editor/Jupyter
+   - Verificar la instalación
+4. Ambientes virtuales
+   - ¿Qué problema resuelven?
+   - Crear un ambiente
+   - Activarlo
+   - Instalar paquetes
+5. Jupyter local
+   - Abrir un notebook
+   - Seleccionar el kernel
+   - Ejecutar el mismo notebook utilizado en Colab
+6. Estructura mínima de un proyecto
+
+
+### 10. SQL básico desde Python
+
+1. ¿Por qué existen las bases de datos?
+   - CSV/Excel vs. bases de datos
+   - Tablas
+   - Filas y columnas
+   - Llaves
+2. SQL básico
+   - `SELECT`
+   - `FROM`
+   - `WHERE`
+   - `GROUP BY`
+   - `ORDER BY`
+   - `LIMIT`
+   - Mención de `JOIN`
+3. SQL desde Python
+   - SQLite
+   - Ejecutar una consulta
+   - Cargar el resultado como DataFrame de pandas
+
+
+
+### 11. Errores, debugging, documentación e IA
 
 1. Errores comunes
-    * Signos faltantes (e.g. paréntesis, dos puntos, comas, etc.)
-    * Indentación
-    * Typos
-    * Tipo incorrecto de variable
-2. Debugging
-   * Recomendaciones generales
-   * Buenas prácticas de programación
+   - `SyntaxError`
+   - `NameError`
+   - `TypeError`
+   - `KeyError`
+   - `FileNotFoundError`
+   - Indentación
+2. Cómo leer un traceback
+   - Identificar dónde ocurrió el error
+   - Leer la última línea
+   - Identificar el tipo de error
+3. Estrategias de debugging
+   - Ejecutar código por partes
+   - Inspeccionar variables
+   - Revisar tipos
+   - Revisar dimensiones
+   - Probar ejemplos pequeños
+4. Buscar ayuda
+   - `help()`
+   - Documentación oficial
+   - Búsquedas en internet
+5. IA como apoyo para programar
+   - Compartir contexto, código y error
+   - Pedir explicación, no sólo una solución
+   - Ejecutar y verificar el código sugerido
+   - No asumir que el código generado es correcto
+
+

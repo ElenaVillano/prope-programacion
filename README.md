@@ -28,28 +28,30 @@ El objetivo de este propedéutico es familiarizarlos con los fundamentos de la p
 
 
 
-## Temario
+## Temario general
+> Ve el temario detallado en: [materiales/0_temario_detallado.md](materiales/0_temario_detallado.md)
 
-### 1. Introducción a programación, Python y notebooks
 
-### 2. Fundamentos de Python
+#### 1. Introducción a programación, Python y notebooks
 
-### 3. Control y flujo de funciones
+#### 2. Fundamentos de Python
 
-### 4. Archivos, carpetas y paquetes
+#### 3. Control y flujo de funciones
 
-### 5. Introducción a pandas: conocer nuestros datos
+#### 4. Archivos, carpetas y paquetes
 
-### 6. Pandas: seleccionar, limpiar y transformar datos
+#### 5. Introducción a pandas: conocer nuestros datos
 
-### 7. pandas: resumir y combinar información
+#### 6. Pandas: seleccionar, limpiar y transformar datos
 
-### 8. Exploración descriptiva y visualización de datos
+#### 7. pandas: resumir y combinar información
 
-### 9. De Colab a mi computadora: Python local
+#### 8. Exploración descriptiva y visualización de datos
 
-### 10. SQL básico desde Python
+#### 9. De Colab a mi computadora: Python local
 
-### 11. Errores, debugging, documentación e IA
+#### 10. SQL básico desde Python
+
+#### 11. Errores, debugging, documentación e IA
 
 

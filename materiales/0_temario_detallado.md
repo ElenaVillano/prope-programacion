@@ -3,16 +3,12 @@
 ### 1. Introducción a programación, Python y notebooks
 
 1.  ¿Qué significa programar?
-    - Instrucciones, datos y resultados
-    - ¿Qué es y por qué Python? 
-    - Código, intérprete y ejecución
-2.  ¿Dónde ejecutamos Python?
-    - Google Colab
-    - Jupyter Notebook
-    - Diferencias entre Python, Jupyter y Colab
-    - Celdas de código y texto
+2.  ¿Qué es y cómo funciona Python? 
+3.  ¿Dónde ejecutamos Python?
+    - Jupyter Notebook y Google Colab
+4. Celdas de texto y código
     - Orden de ejecución de las celdas
-3. Primeros pasos
+5. Primeros pasos
     - `print()`
     - Comentarios
     - Errores como parte de la programación

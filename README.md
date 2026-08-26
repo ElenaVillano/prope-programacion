@@ -4,6 +4,33 @@
 
 ¡Bienvenid@s!
 
+El objetivo de este propedéutico es familiarizarlos con los fundamentos de la programación y brindarles las herramientas necesarias para comenzar a trabajar con datos de manera autónoma.
+
+El curso estará enfocado en **Python**, un lenguaje muy versátil y ampliamente utilizado para el análisis de datos. No se requiere experiencia previa en programación. La idea es que, al finalizar el propedéutico, puedan sentirse cómodos trabajando con Python y sean capaces de cargar, explorar, transformar y analizar sus propias bases de datos.
+
+Comenzaremos trabajando en Google Colab y posteriormente aprenderemos a configurar y utilizar Python directamente en sus computadoras.
+
+### Horarios y modalidades
+
+- **Modalidad virtual:** 6:30 a 8:00
+- **Modalidad presencial (Mixcoac):** 8:00 a 9:30
+
+**IMPORTANTE:** La modalidad asignada deberá mantenerse durante todo el propedéutico. Si están inscritos en modalidad virtual, deberán asistir de manera virtual; si están inscritos en modalidad presencial, deberán asistir presencialmente.
+
+### Asistencia y puntualidad
+
+- La asistencia se registrará **todos los días y es obligatoria**.
+
+    - En la modalidad virtual, el pase de lista se realizará en un **momento aleatorio durante la sesión**, por lo que es importante conectarse puntualmente y permanecer presentes durante toda la clase.
+
+    - Para la modalidad presencial también se requiere puntualidad y asistencia durante la sesión completa.
+
+### Material del curso
+
+Todo el material, ejercicios, notebooks, bases de datos e instrucciones del propedéutico estarán disponibles en este repositorio.
+
+Es importante revisar el repositorio regularmente, ya que será nuestro principal medio para organizar y distribuir los materiales del curso.
+
 ## Temario
 
 ### 1. Introducción a programación, Python y notebooks

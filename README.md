@@ -29,7 +29,7 @@ El objetivo de este propedéutico es familiarizarlos con los fundamentos de la p
 
 
 ## Temario general
-> Ve el temario detallado en: [materiales/0_temario_detallado.md](materiales/0_temario_detallado.md)
+> Ve el temario detallado en: [materiales/m00_temario_detallado.md](materiales/m00_temario_detallado.md)
 
 
 #### 1. Introducción a programación, Python y notebooks

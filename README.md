@@ -1,53 +1,82 @@
-# Propedeutico de Python para la EGobiernoyTP - Verano 2023
+# Propedeutico de Programación para el Análisis de Datos
 
-¡Bienvenidos!
 
-Para este curso, utilizaremos Google Colab. Es una plataforma que permite correr Python en servidores de Google. La principal ventaja es que elimina el obstáculo de tener computadoras y sistemas operativos diferentes; sin embargo, no es escalable para proyectos con impacto real. Una vez que comiencen sus clases, trabajarán con herramientas dentro de la infraestructura de la Escuela.
+### EGobiernoyTP, Verano 2026
 
-Cada una de las 8 sesiones en este curso se corresponde con un _notebook_, que contendrá las instrucciones que todos seguiremos de manera conjunta. Todos ellos están dentro de la carpeta `notebooks`, que pueden encontrar en la estructura principal de este repositorio de GitHub. Para poder trabajar sobre ellos, es decir, "correr el código", es necesario presionar el botón "Open in Colab" que se encuentra al principio de cada uno. Esto abrirá una nueva ventana con una copia del _notebook_ que es solamente para ustedes, que podrán editar con su propio trabajo. Para poder guardarla, deben hacerlo de manera explícita en Google Drive: por medio del menú `Archivo->Guardar una copia en Drive`. 
-
-Los datos con los que trabajaremos en este curso, que se pueden encontrar para su facilidad ya descargados dentro de la carpeta `datos`, serán:
-* [Indicadores demográficos de México de 1950 a 2050 y de las entidades federativas de 1970 a 2050, publicados en 2018 por datos.gob.mx](https://datos.gob.mx/herramientas/indicadores-demograficos-de-mexico-de-1950-a-2050-y-de-las-entidades-federativas-de-1970-a-2050?category=web&tag=economia)
+¡Bienvenid@s!
 
 ## Temario
 
-### Sesión 1: Introducción a Python
+### 1. Introducción a programación, Python y notebooks
 
-1.  ¿Qué es y cómo funciona Python?
-2.  ¿Qué es un notebook?
-3.  Variables
-4.  Operadores
-    - Tipos de operadores
-5.  Comentarios
-    - Comentario de una sola línea
-    - Comentario multilinea
-6.  Tipo de datos
-    - Boolean
-    - Númericos
+1.  ¿Qué significa programar?
+    - Instrucciones, datos y resultados
+    - ¿Qué es y por qué Python? 
+    - Código, intérprete y ejecución
+2.  ¿Dónde ejecutamos Python?
+    - Google Colab
+    - Jupyter Notebook
+    - Diferencias entre Python, Jupyter y Colab
+    - Celdas de código y texto
+    - Orden de ejecución de las celdas
+3. Primeros pasos
+    - `print()`
+    - Comentarios
+    - Errores como parte de la programación
+    - Cómo leer un mensaje de error
+
+### 2. Fundamentos de Python
+
+1.  Variables y asignación
+    - Crear y modificar variables
+    - Asignación `=`
+    - Comparación `==`
+    - Nombres de variables
+2.  Tipos de datos
+    - Booleanos
+    - Númericos: `int`y `float`
     - Strings
-    - Formatting
-7. Tipos de estructuras de datos
+    - `None`
+    - `type()`
+    - Conversión entre tipos
+3. Operadores
+    - Aritméticos
+    - Comparación
+    - Lógicos
+4. Strings
+    - Operaciones básicas
+    - Indexación
+    - Slicing
+    - Métodos básicos
+    - f-strings
+7. Estructuras de datos
     - Listas
-    - Tuplas
-    - Sets
     - Diccionarios
+    - Tuplas y sets
+    - Indexación y acceso a elementos
 
-### Sesión 2: Más de introducción a Python.
+### 3. Control y flujo de funciones
 
-1. Input
-2. Indexación y Slicing
-3. Conversión en tipo de datos
-4. Conditionals
-5. Loops
-   - for
-   - while 
-   - range y enumerate
-6. Funciones
-   - Recursivas
-   - Lambda
-7. Clases & Objetos
+1. Condicionales
+    - `if`
+    - `elif`
+    - `else`
+    - Combinar condiciones con `and`, `or` y `not`
+2. Loops
+   - `for`
+   - `range()` y `enumerate()`
+   - Mención de `while`
+3. Funciones
+   - ¿Por qué crear funciones?
+   - Parámetros y argumentos
+   - `return`
+4. Reconocer diferentes formas de trabajar con Python
+    - Variables: `x`
+    - Funciones: `len(x)`
+    - Métodos: `x.mean()`
+    - Atributos: `x.shape`
 
-### Sesión 3: Paquetes, archivos, más intro python
+### 3. Paquetes, archivos, más intro python
 
 1. Paquetes
    - pip
@@ -59,7 +88,7 @@ Los datos con los que trabajaremos en este curso, que se pueden encontrar para s
     - csv con pandas
 3. Arreglos (numpy)
 
-### Sesión 4: Exploración de bases de datos (pandas 1)
+### 4. Exploración de bases de datos (pandas 1)
 
 1. Generalidades de bases de datos
     - ¿Cuántas variables y observaciones tenemos?
@@ -83,7 +112,7 @@ Los datos con los que trabajaremos en este curso, que se pueden encontrar para s
     - Seleccionar subconjuntos basados en condiciones
 8. Reset index
 
-### Sesión 5: Más de pandas
+### 5. Exploración de bases de datos (pandas 2)
 
 1. Arrays y Dataframes
 2. Operaciones básicas en Dataframes
@@ -97,7 +126,7 @@ Los datos con los que trabajaremos en este curso, que se pueden encontrar para s
     * Tipos de joins
     * Merge
 
-### Sesión 5: EDA y GEDA
+### 6. Exploración descriptiva y gráfica de datos 
 
 1. Introducción a análisis de datos
     - Objetivos 
@@ -114,7 +143,7 @@ Los datos con los que trabajaremos en este curso, que se pueden encontrar para s
     - Análisis práctica
 
 
-### Sesión 7: SQL básico
+### 7. SQL básico con python
 
 1. Introducción
     * Bases de datos
@@ -127,7 +156,10 @@ Los datos con los que trabajaremos en este curso, que se pueden encontrar para s
     * Obtener información con SQL
     * Modificar información con SQL
 
-### Sesión 8: Errores y _debugging_
+### 8. Instalación y manejo de Python en sus computadoras locales
+
+
+### 9. Manejor de errores e IA al programar
 
 1. Errores comunes
     * Signos faltantes (e.g. paréntesis, dos puntos, comas, etc.)
@@ -137,7 +169,3 @@ Los datos con los que trabajaremos en este curso, que se pueden encontrar para s
 2. Debugging
    * Recomendaciones generales
    * Buenas prácticas de programación
-3. Herramientas útiles
-    * Stack Overflow
-    * ChatGPT
-    * Documentación oficial

@@ -1,93 +1,143 @@
-# Propedéutico de Programación para el Análisis de Datos
+# Propedeutico de Python para la EGobiernoyTP - Verano 2023
+
+¡Bienvenidos!
+
+Para este curso, utilizaremos Google Colab. Es una plataforma que permite correr Python en servidores de Google. La principal ventaja es que elimina el obstáculo de tener computadoras y sistemas operativos diferentes; sin embargo, no es escalable para proyectos con impacto real. Una vez que comiencen sus clases, trabajarán con herramientas dentro de la infraestructura de la Escuela.
+
+Cada una de las 8 sesiones en este curso se corresponde con un _notebook_, que contendrá las instrucciones que todos seguiremos de manera conjunta. Todos ellos están dentro de la carpeta `notebooks`, que pueden encontrar en la estructura principal de este repositorio de GitHub. Para poder trabajar sobre ellos, es decir, "correr el código", es necesario presionar el botón "Open in Colab" que se encuentra al principio de cada uno. Esto abrirá una nueva ventana con una copia del _notebook_ que es solamente para ustedes, que podrán editar con su propio trabajo. Para poder guardarla, deben hacerlo de manera explícita en Google Drive: por medio del menú `Archivo->Guardar una copia en Drive`. 
+
+Los datos con los que trabajaremos en este curso, que se pueden encontrar para su facilidad ya descargados dentro de la carpeta `datos`, serán:
+* [Indicadores demográficos de México de 1950 a 2050 y de las entidades federativas de 1970 a 2050, publicados en 2018 por datos.gob.mx](https://datos.gob.mx/herramientas/indicadores-demograficos-de-mexico-de-1950-a-2050-y-de-las-entidades-federativas-de-1970-a-2050?category=web&tag=economia)
+
+## Temario
+
+### Sesión 1: Introducción a Python
+
+1.  ¿Qué es y cómo funciona Python?
+2.  ¿Qué es un notebook?
+3.  Variables
+4.  Operadores
+    - Tipos de operadores
+5.  Comentarios
+    - Comentario de una sola línea
+    - Comentario multilinea
+6.  Tipo de datos
+    - Boolean
+    - Númericos
+    - Strings
+    - Formatting
+7. Tipos de estructuras de datos
+    - Listas
+    - Tuplas
+    - Sets
+    - Diccionarios
+
+### Sesión 2: Más de introducción a Python.
+
+1. Input
+2. Indexación y Slicing
+3. Conversión en tipo de datos
+4. Conditionals
+5. Loops
+   - for
+   - while 
+   - range y enumerate
+6. Funciones
+   - Recursivas
+   - Lambda
+7. Clases & Objetos
+
+### Sesión 3: Paquetes, archivos, más intro python
+
+1. Paquetes
+   - pip
+   - Importar paquetes
+   - Ambientes Virtuales
+2. Cargar archivos
+    - Importas archivos de Google Drive
+    - open
+    - csv con pandas
+3. Arreglos (numpy)
+
+### Sesión 4: Exploración de bases de datos (pandas 1)
+
+1. Generalidades de bases de datos
+    - ¿Cuántas variables y observaciones tenemos?
+    - Diccionario de variables
+    - Explorando más
+2. Tipos de datos en db
+    - Cambiar tipos de datos
+        - str
+        - float
+        - int
+        - datetime
+3. Variables categóricas
+4. Variables numéricas
+5. Variables temporales
+6. NA's
+    - Drop
+    - Replace
+7. Subconjuntos de bases
+    - Quitar columnas
+    - Seleccionar subconjuntos de la base
+    - Seleccionar subconjuntos basados en condiciones
+8. Reset index
+
+### Sesión 5: Más de pandas
+
+1. Arrays y Dataframes
+2. Operaciones básicas en Dataframes
+    * Creación de columnas nuevas
+        * Suma, resta, multiplicación o divisón
+        * Comandos básicos de texto
+    * Agrupación
+3. Operaciones avanzadas en Dataframes
+    * Funciones Lambda
+4. Combinación de Dataframes
+    * Tipos de joins
+    * Merge
+
+### Sesión 5: EDA y GEDA
+
+1. Introducción a análisis de datos
+    - Objetivos 
+    - Tipos de estructura de datos
+    - Tipos de exploración de datos
+2. EDA (Exploratory Data Analysis) / GEDA (Graphical Exploratory Data Analysis)
+    - Definir el tipo de dato
+        - Categóricas
+        - Numéricas
+        - Fechas
+        - Texto
+        - Geolocalización
+    - Algunos principios de visualización 
+    - Análisis práctica
 
 
+### Sesión 7: SQL básico
 
-## Getting started
+1. Introducción
+    * Bases de datos
+    * Lenguaje SQL
+2. Establecer conexiones con las bases de datos
+    * sqlite 
+    * psycopg2 
+3. Acciones básicas con SQL
+    * Instrucciones desde Python
+    * Obtener información con SQL
+    * Modificar información con SQL
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+### Sesión 8: Errores y _debugging_
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/data-science-egobiernoytp/clases/prope-programacion.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-* [Set up project integrations](https://gitlab.com/data-science-egobiernoytp/clases/prope-programacion/-/settings/integrations)
-
-## Collaborate with your team
-
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+1. Errores comunes
+    * Signos faltantes (e.g. paréntesis, dos puntos, comas, etc.)
+    * Indentación
+    * Typos
+    * Tipo incorrecto de variable
+2. Debugging
+   * Recomendaciones generales
+   * Buenas prácticas de programación
+3. Herramientas útiles
+    * Stack Overflow
+    * ChatGPT
+    * Documentación oficial

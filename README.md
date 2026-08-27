@@ -25,6 +25,12 @@ El objetivo de este propedéutico es familiarizarlos con los fundamentos de la p
     - En la modalidad virtual, el pase de lista se realizará en un **momento aleatorio durante la sesión**, por lo que es importante conectarse puntualmente y permanecer presentes durante toda la clase.
 
     - Para la modalidad presencial también se requiere puntualidad y asistencia durante la sesión completa.
+ 
+### Uso de Inteligencia Artificial
+
+Durante este propedéutico **no está permitido utilizar herramientas de Inteligencia Artificial para resolver los ejercicios**, a menos que se indique explícitamente lo contrario.
+
+El objetivo es que primero comprendan la estructura, lógica y fundamentos de la programación, de manera que puedan identificar qué quieren hacer, entender el código y reconocer posibles errores. Estas bases les permitirán posteriormente utilizar la IA de manera más efectiva, haciendo mejores solicitudes y evaluando críticamente las soluciones que genere.
 
 
 

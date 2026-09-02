@@ -59,31 +59,30 @@
    - ¿Por qué crear funciones?
    - Parámetros y argumentos
    - `return`
-4. Reconocer diferentes formas de trabajar con Python
+
+
+### 4. Python pre-análisis, paquetes y carga de datos
+
+1. Reconocer diferentes formas de trabajar con Python
     - Variables: `x`
     - Funciones: `len(x)`
     - Métodos: `x.mean()`
     - Atributos: `x.shape`
-
-
-### 4. Archivos, carpetas y paquetes
-
-1. Archivos y carpetas
-   - ¿Qué es una ruta?
-   - Directorio de trabajo
-   - Rutas absolutas y relativas, y extensiones de archivos
-   - ¿Dónde está buscando Python mi archivo?
-2. Trabajar con archivos en Colab
-   - Subir archivos
-   - Google Drive
-   - Leer un CSV
-3. Paquetes
+2. Paquetes
    - ¿Qué es un paquete?
    - `import`
    - Alias: `import pandas as pd`
    - Instalar vs. importar
-   - ¿Por qué algunas funciones requieren paquetes?
-4. Introducción a NumPy
+3. Archivos y carpetas
+   - ¿Qué es una ruta?
+   - Directorio de trabajo
+   - Rutas absolutas y relativas, y extensiones de archivos
+   - ¿Dónde está buscando Python mi archivo?
+4. Trabajar con archivos en Colab
+   - Subir archivos
+   - Google Drive
+   - Leer un CSV
+5. Introducción a NumPy
    - ¿Qué es un array?
    - Diferencia conceptual entre lista y array
    - Operaciones vectorizadas

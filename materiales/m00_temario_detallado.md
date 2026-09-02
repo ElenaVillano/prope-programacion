@@ -73,16 +73,11 @@
    - `import`
    - Alias: `import pandas as pd`
    - Instalar vs. importar
-3. Archivos y carpetas
-   - ¿Qué es una ruta?
-   - Directorio de trabajo
-   - Rutas absolutas y relativas, y extensiones de archivos
-   - ¿Dónde está buscando Python mi archivo?
-4. Trabajar con archivos en Colab
+3. Trabajar con archivos en Colab
    - Subir archivos
    - Google Drive
    - Leer un CSV
-5. Introducción a NumPy
+4. Introducción a NumPy
    - ¿Qué es un array?
    - Diferencia conceptual entre lista y array
    - Operaciones vectorizadas
@@ -90,19 +85,12 @@
 
 ### 5. Introducción a pandas: conocer nuestros datos
 
-1. ¿Qué es una base de datos?
-   - Observaciones y variables
-   - Tablas
-   - Diccionario de variables
-   - Datos tidy
-2. Series y DataFrames
+
+1. Series y DataFrames
    - ¿Qué es una Series?
    - ¿Qué es un DataFrame?
    - Filas, columnas e índice
-3. Cargar datos
-   - `pd.read_csv()`
-   - Mención de Excel y otros formatos
-4. Primera exploración
+2. Primera exploración
    - `head()`
    - `tail()`
    - `sample()`
@@ -110,44 +98,44 @@
    - `columns`
    - `info()`
    - `describe()`
-5. Conocer los valores de una variable
+3. Conocer los valores de una variable
    - `unique()`
    - `nunique()`
    - `value_counts()`
-
-
-### 6. pandas: seleccionar, limpiar y transformar datos
-
-1. Seleccionar columnas
+4. Seleccionar columnas
    - Una columna
    - Varias columnas
    - Series vs. DataFrame
-2. Seleccionar observaciones
-   - Filtrar mediante condiciones
-   - Combinar condiciones
-   - `loc`
-   - Mención de `iloc`
-3. Tipos de datos
+5. Tipos de datos
    - Strings
    - `int`
    - `float`
    - Booleanos
    - `datetime`
    - Cambiar tipos
-4. Valores faltantes
+
+
+### 6. pandas: seleccionar, limpiar y transformar datos
+
+1. Seleccionar observaciones
+   - Filtrar mediante condiciones
+   - Combinar condiciones
+   - `loc`
+   - Mención de `iloc`
+2. Valores faltantes
    - ¿Qué es `NaN`?
    - `isna()`
    - `dropna()`
    - `fillna()`
-5. Ordenar datos
+3. Ordenar datos
    - `sort_values()`
-6. Crear y modificar variables
+4. Crear y modificar variables
    - Operaciones aritméticas
    - Comparaciones
    - Operaciones básicas con texto
    - Variables derivadas
-7. Eliminar y renombrar columnas
-8. Índice y `reset_index()`
+5. Eliminar y renombrar columnas
+6. Índice y `reset_index()`
 
 
 ### 7. pandas: resumir y combinar información

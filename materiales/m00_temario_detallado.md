@@ -83,14 +83,16 @@
    - Operaciones vectorizadas
 
 
-### 5. Introducción a pandas: conocer nuestros datos
-
+### 5. Exploración de bases de datos: intro pandas
 
 1. Series y DataFrames
    - ¿Qué es una Series?
    - ¿Qué es un DataFrame?
    - Filas, columnas e índice
-2. Primera exploración
+2. Generalidades de bases de datos
+    - ¿Cuántas variables y observaciones tenemos?
+    - Diccionario de variables
+3. Primera exploración
    - `head()`
    - `tail()`
    - `sample()`
@@ -98,59 +100,58 @@
    - `columns`
    - `info()`
    - `describe()`
-3. Conocer los valores de una variable
-   - `unique()`
-   - `nunique()`
-   - `value_counts()`
 4. Seleccionar columnas
    - Una columna
    - Varias columnas
-   - Series vs. DataFrame
-5. Tipos de datos
-   - Strings
-   - `int`
-   - `float`
-   - Booleanos
-   - `datetime`
-   - Cambiar tipos
+5. Tipos de datos en db
+    - Cambiar tipos de datos
+        - str
+        - float
+        - int
+        - datetime
+6. Data profiling:
+   - Variables categóricas
+       - `unique()`
+       - `nunique()`
+       - `value_counts()`
+   - Variables numéricas
+   - Variables temporales
 
+### 6. Exploración de bases de datos: seleccionar, limpiar y transformar datos
 
-### 6. pandas: seleccionar, limpiar y transformar datos
-
-1. Seleccionar observaciones
-   - Filtrar mediante condiciones
-   - Combinar condiciones
-   - `loc`
-   - Mención de `iloc`
-2. Valores faltantes
+1. Valores faltantes
    - ¿Qué es `NaN`?
    - `isna()`
    - `dropna()`
    - `fillna()`
-3. Ordenar datos
+   - Replace
+2. Subconjuntos de bases
+    - Quitar columnas
+    - Seleccionar subconjuntos de la base
+    - Seleccionar subconjuntos basados en condiciones
+3. Seleccionar observaciones
+   - Filtrar mediante condiciones
+   - Combinar condiciones
+   - `loc`
+   - Mención de `iloc`
+4. Ordenar datos
    - `sort_values()`
-4. Crear y modificar variables
+5. Crear y modificar variables
    - Operaciones aritméticas
    - Comparaciones
    - Operaciones básicas con texto
    - Variables derivadas
-5. Eliminar y renombrar columnas
-6. Índice y `reset_index()`
+6. Eliminar y renombrar columnas
+7. Índice y `reset_index()`
 
 
-### 7. pandas: resumir y combinar información
+### 7. Exploración de bases de datos:  combinar información
 
-1. Estadística descriptiva básica
-   - Media
-   - Mediana
-   - Mínimo y máximo
-   - Conteos
-   - Proporciones
-2. Agrupar información
+1. Agrupar información
    - `groupby()`
    - `agg()`
    - Agrupar por una o más variables
-3. Combinar bases de datos
+2. Combinar bases de datos
    - ¿Por qué tenemos información en diferentes tablas?
    - Llaves o identificadores
    - Tipos de joins

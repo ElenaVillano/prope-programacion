@@ -109,40 +109,34 @@
         - float
         - int
         - datetime
-6. Data profiling:
-   - Variables categóricas
-       - `unique()`
-       - `nunique()`
-       - `value_counts()`
-   - Variables numéricas
-   - Variables temporales
-
-### 6. Exploración de bases de datos: seleccionar, limpiar y transformar datos
-
-1. Valores faltantes
+6. Valores faltantes
    - ¿Qué es `NaN`?
    - `isna()`
    - `dropna()`
    - `fillna()`
    - Replace
-2. Subconjuntos de bases
+
+### 6. Exploración de bases de datos: seleccionar, limpiar y transformar datos
+
+
+1. Subconjuntos de bases
     - Quitar columnas
     - Seleccionar subconjuntos de la base
     - Seleccionar subconjuntos basados en condiciones
-3. Seleccionar observaciones
+2. Seleccionar observaciones
    - Filtrar mediante condiciones
    - Combinar condiciones
    - `loc`
    - Mención de `iloc`
-4. Ordenar datos
+3. Ordenar datos
    - `sort_values()`
-5. Crear y modificar variables
+4. Crear y modificar variables
    - Operaciones aritméticas
    - Comparaciones
    - Operaciones básicas con texto
    - Variables derivadas
-6. Eliminar y renombrar columnas
-7. Índice y `reset_index()`
+5. Eliminar y renombrar columnas
+6. Índice y `reset_index()`
 
 
 ### 7. Exploración de bases de datos:  combinar información
